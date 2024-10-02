@@ -23,3 +23,5 @@ export default function TodoList(props) {   // receive the properties; contains 
     </ul>
   )
 }
+
+// map() creates a new array from calling a function for every array element, does not change the original array.

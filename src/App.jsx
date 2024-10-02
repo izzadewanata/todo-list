@@ -8,7 +8,7 @@ function App() {
 
   // handle 
   function handleAddTodos(newTodo) {
-    const newTodoList = [...todos, newTodo]
+    const newTodoList = [...todos, newTodo] // spread function
     setTodos(newTodoList)
     persistData(newTodoList)
   }
@@ -62,10 +62,11 @@ function App() {
           deleteTodo={deleteTodo}
           editTodo={editTodo}
         />
-        {/* <h3>by Izza Sinatrya</h3> */}
+        <h3>by Izza Sinatrya</h3>
       </div>
     </>
   )
 }
 
 export default App
+

@@ -21,3 +21,5 @@ export default function TodoInput(props) { // expect the props (receive)
     </header>
   )
 }
+
+// The onchange event occurs when the value of an HTML element is changed.
